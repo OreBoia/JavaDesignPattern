@@ -12,6 +12,7 @@ class ConcreteMediator implements Mediator {
         colleagueB = b;
     }
 
+    @Override
     public void notify(Colleague sender, String event) {
         if (sender == colleagueA && event.equals("A_EVENT")) {
             System.out.println("Mediator reagisce all'evento di A e attiva B.");
