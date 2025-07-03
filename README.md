@@ -5,10 +5,12 @@ This repository contains Java implementations of several classic design patterns
 ## Patterns Included
 
 - **Adapter**
+- **Decorator**
 - **Factory Method**
 - **Mediator**
 - **Singleton**
 - **State**
+- **Observer**
 
 ---
 
@@ -20,6 +22,13 @@ This repository contains Java implementations of several classic design patterns
   Adapts an `Adaptee` class to a `Target` interface using an `Adapter` class.
 - **Concrete Example:**  
   Adapts a `LegacyPrinter` to a modern `Printer` interface using `PrinterAdapter`.
+
+### Decorator
+
+- **Generic Example:**  
+  `Decorator` extends `Component` to add functionality without modifying the original class.
+- **Concrete Example:**
+  `BeverageDecorator` adds features to a `Beverage` object, such as `MilkDecorator` and `SambucaDecorator`.
 
 ### Factory Method
 
