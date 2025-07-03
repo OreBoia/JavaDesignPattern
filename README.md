@@ -57,6 +57,12 @@ This repository contains Java implementations of several classic design patterns
 - **Concrete Example:**  
   `PlayerContext` simulates a music player with states: `StoppedState`, `PlayingState`, `PausedState`.
 
+### Observer
+
+- **Generic Example:**  
+  `Subject` maintains a list of `Observer` objects and notifies them of state changes.
+- **Concrete Example:**  
+  `FonteNotizie` notifies `GiornaleOnline` observers of temperature changes.
 ---
 
 ## How to Run
