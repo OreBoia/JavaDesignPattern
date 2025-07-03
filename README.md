@@ -1,4 +1,4 @@
-Java Design Patterns
+### Java Design Patterns
 
 This repository contains Java implementations of several classic design patterns, each with both generic and concrete examples. The project is organized by pattern type, with each pattern demonstrating its structure and usage through simple, self-contained code samples.
 
